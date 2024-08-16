@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723760982109' stop='1723760988259'>
+    <name>Selenium Tests3 - test2</name>
+    <title>Selenium Tests3 - test2</title>
+    <test-cases>
+        <test-case start='1723760983332' status='passed' stop='1723760984576'>
+            <name>should have a title containing "The Internet"</name>
+            <title>should have a title containing "The Internet"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723760984576' status='passed' stop='1723760984826'>
+            <name>should find "A/B Testing" link</name>
+            <title>should find "A/B Testing" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723760984826' status='passed' stop='1723760985575'>
+            <name>should navigate to "A/B Testing" page</name>
+            <title>should navigate to "A/B Testing" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723760985575' status='failed' stop='1723760985805'>
+            <name>should verify "Forgot Password" page title</name>
+            <title>should verify "Forgot Password" page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'The Internet' to include 'Forgot Password'</message>
+                <stack-trace>AssertionError: expected 'The Internet' to include 'Forgot Password'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test2.mjs:43:22)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723760985806' status='passed' stop='1723760987560'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723760987560' status='passed' stop='1723760987981'>
+            <name>should click "Click for JS Alert" and verify alert text</name>
+            <title>should click "Click for JS Alert" and verify alert text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723760987981' status='passed' stop='1723760988197'>
+            <name>should measure page load time</name>
+            <title>should measure page load time</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

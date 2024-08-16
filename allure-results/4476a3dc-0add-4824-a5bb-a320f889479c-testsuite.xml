@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723770047245' stop='1723770053098'>
+    <name>Selenium Tests3 - test2</name>
+    <title>Selenium Tests3 - test2</title>
+    <test-cases>
+        <test-case start='1723770048365' status='passed' stop='1723770049483'>
+            <name>should have a title containing "The Internet"</name>
+            <title>should have a title containing "The Internet"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723770049484' status='passed' stop='1723770049782'>
+            <name>should find "A/B Testing" link</name>
+            <title>should find "A/B Testing" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723770049782' status='failed' stop='1723770050406'>
+            <name>should navigate to "A/B Testing" page</name>
+            <title>should navigate to "A/B Testing" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'A/B Test Variation 1' to equal 'A/B Test Control'</message>
+                <stack-trace>AssertionError: expected 'A/B Test Variation 1' to equal 'A/B Test Control'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test2.mjs:38:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723770050406' status='failed' stop='1723770050696'>
+            <name>should verify "Forgot Password" page title</name>
+            <title>should verify "Forgot Password" page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'The Internet' to include 'Forgot Password'</message>
+                <stack-trace>AssertionError: expected 'The Internet' to include 'Forgot Password'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test2.mjs:44:22)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723770050696' status='passed' stop='1723770052395'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723770052395' status='passed' stop='1723770052803'>
+            <name>should click "Click for JS Alert" and verify alert text</name>
+            <title>should click "Click for JS Alert" and verify alert text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723770052803' status='passed' stop='1723770053044'>
+            <name>should measure page load time</name>
+            <title>should measure page load time</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
