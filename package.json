@@ -1,0 +1,27 @@
+{
+  "name": "selenium-test-project2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test.mjs --reporter mochawesome --reporter-options reportDir=report,reportFilename=index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "mocha-parallel-tests": "^2.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "parallel-test": "^3.0.4",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.0.0",
+    "mochawesome-report-generator": "^6.1.0"
+  }
+}
