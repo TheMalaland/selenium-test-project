@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723831029329' stop='1723831030358'>
+    <name>Selenium Tests3 - test</name>
+    <title>Selenium Tests3 - test</title>
+    <test-cases>
+        <test-case start='1723831030357' status='broken' stop='1723831030358'>
+            <name>"before all" hook for "should have a title containing "The Internet""</name>
+            <title>"before all" hook for "should have a title containing "The Internet""</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'quit')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'quit')
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:19:18)
+                    at process.processImmediate (node:internal/timers:483:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,225 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723853174241' stop='1723853180464'>
+    <name>More Advanced Tests for the-internet.herokuapp.com</name>
+    <title>More Advanced Tests for the-internet.herokuapp.com</title>
+    <test-cases>
+        <test-case start='1723853175270' status='passed' stop='1723853177250'>
+            <name>should scroll to a specific element</name>
+            <title>should scroll to a specific element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853177250' status='passed' stop='1723853178018'>
+            <name>should navigate back after visiting another page</name>
+            <title>should navigate back after visiting another page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853178018' status='broken' stop='1723853178212'>
+            <name>should simulate network throttling</name>
+            <title>should simulate network throttling</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>until is not defined</message>
+                <stack-trace>ReferenceError: until is not defined
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:42:40)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853178213' status='passed' stop='1723853178630'>
+            <name>should detect a broken image</name>
+            <title>should detect a broken image</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853178630' status='broken' stop='1723853179072'>
+            <name>should test responsive design</name>
+            <title>should test responsive design</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":"*[id="menu"]"}
+                  (Session info: chrome=114.0.5735.133)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":"*[id="menu"]"}
+                  (Session info: chrome=114.0.5735.133)
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:64:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853179072' status='passed' stop='1723853179608'>
+            <name>should dismiss a JavaScript alert</name>
+            <title>should dismiss a JavaScript alert</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853179609' status='passed' stop='1723853180359'>
+            <name>should handle and close multiple windows</name>
+            <title>should handle and close multiple windows</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853180360' status='broken' stop='1723853180403'>
+            <name>should verify checkboxes are checked or unchecked dynamically</name>
+            <title>should verify checkboxes are checked or unchecked dynamically</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:90:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180403' status='broken' stop='1723853180408'>
+            <name>should handle dynamic enable and disable controls</name>
+            <title>should handle dynamic enable and disable controls</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:103:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180408' status='broken' stop='1723853180413'>
+            <name>should validate secure HTTPS page</name>
+            <title>should validate secure HTTPS page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:111:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180414' status='broken' stop='1723853180420'>
+            <name>should interact with floating menu</name>
+            <title>should interact with floating menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:118:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180420' status='broken' stop='1723853180423'>
+            <name>should interact with shadow DOM</name>
+            <title>should interact with shadow DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:126:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180423' status='broken' stop='1723853180454'>
+            <name>should simulate file download</name>
+            <title>should simulate file download</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:135:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180454' status='broken' stop='1723853180459'>
+            <name>should handle a redirect to another URL</name>
+            <title>should handle a redirect to another URL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:143:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853180459' status='broken' stop='1723853180463'>
+            <name>should interact with modal elements</name>
+            <title>should interact with modal elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>NoSuchSessionError: invalid session id
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test3.mjs:152:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

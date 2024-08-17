@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723925049736' stop='1723925061959'>
+    <name>Selenium Tests3 - test</name>
+    <title>Selenium Tests3 - test</title>
+    <test-cases>
+        <test-case start='1723925052807' status='passed' stop='1723925054151'>
+            <name>should have a title containing "The Internet"</name>
+            <title>should have a title containing "The Internet"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925054151' status='passed' stop='1723925054518'>
+            <name>should find "A/B Testing" link</name>
+            <title>should find "A/B Testing" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925054518' status='passed' stop='1723925055563'>
+            <name>should navigate to "A/B Testing" page</name>
+            <title>should navigate to "A/B Testing" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925055563' status='passed' stop='1723925055875'>
+            <name>should find "Add/Remove Elements" link</name>
+            <title>should find "Add/Remove Elements" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925055875' status='passed' stop='1723925056676'>
+            <name>should navigate to "Add/Remove Elements" page</name>
+            <title>should navigate to "Add/Remove Elements" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925056676' status='failed' stop='1723925057070'>
+            <name>should verify "Forgot Password" page title</name>
+            <title>should verify "Forgot Password" page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'The Internet' to include 'Forgot Password'</message>
+                <stack-trace>AssertionError: expected 'The Internet' to include 'Forgot Password'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:57:22)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723925057070' status='passed' stop='1723925057421'>
+            <name>should find "Form Authentication" link</name>
+            <title>should find "Form Authentication" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925057421' status='passed' stop='1723925058639'>
+            <name>should navigate to "Form Authentication" page</name>
+            <title>should navigate to "Form Authentication" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925058644' status='passed' stop='1723925059049'>
+            <name>should find form on "Form Authentication" page</name>
+            <title>should find form on "Form Authentication" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925059049' status='passed' stop='1723925059391'>
+            <name>should find "Horizontal Slider" link</name>
+            <title>should find "Horizontal Slider" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925059391' status='passed' stop='1723925060153'>
+            <name>should navigate to "Horizontal Slider" page</name>
+            <title>should navigate to "Horizontal Slider" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925060153' status='broken' stop='1723925060412'>
+            <name>should find slider on "Horizontal Slider" page</name>
+            <title>should find slider on "Horizontal Slider" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".range"}
+                  (Session info: chrome=114.0.5735.133)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".range"}
+                  (Session info: chrome=114.0.5735.133)
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:94:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723925060412' status='passed' stop='1723925060831'>
+            <name>should find "JavaScript Alerts" link</name>
+            <title>should find "JavaScript Alerts" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925060831' status='passed' stop='1723925061677'>
+            <name>should navigate to "JavaScript Alerts" page</name>
+            <title>should navigate to "JavaScript Alerts" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723925061678' status='passed' stop='1723925061899'>
+            <name>should find "Click for JS Alert" button</name>
+            <title>should find "Click for JS Alert" button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

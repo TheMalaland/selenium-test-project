@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723853257955' stop='1723853267777'>
+    <name>Selenium Tests3 - test</name>
+    <title>Selenium Tests3 - test</title>
+    <test-cases>
+        <test-case start='1723853258998' status='passed' stop='1723853260234'>
+            <name>should have a title containing "The Internet"</name>
+            <title>should have a title containing "The Internet"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853260234' status='passed' stop='1723853260556'>
+            <name>should find "A/B Testing" link</name>
+            <title>should find "A/B Testing" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853260556' status='failed' stop='1723853261432'>
+            <name>should navigate to "A/B Testing" page</name>
+            <title>should navigate to "A/B Testing" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'A/B Test Variation 1' to equal 'A/B Test Control'</message>
+                <stack-trace>AssertionError: expected 'A/B Test Variation 1' to equal 'A/B Test Control'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:38:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853261432' status='passed' stop='1723853261697'>
+            <name>should find "Add/Remove Elements" link</name>
+            <title>should find "Add/Remove Elements" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853261697' status='passed' stop='1723853262436'>
+            <name>should navigate to "Add/Remove Elements" page</name>
+            <title>should navigate to "Add/Remove Elements" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853262437' status='failed' stop='1723853262745'>
+            <name>should verify "Forgot Password" page title</name>
+            <title>should verify "Forgot Password" page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'The Internet' to include 'Forgot Password'</message>
+                <stack-trace>AssertionError: expected 'The Internet' to include 'Forgot Password'
+                    at Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:57:22)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853262745' status='passed' stop='1723853262942'>
+            <name>should find "Form Authentication" link</name>
+            <title>should find "Form Authentication" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853262942' status='passed' stop='1723853264330'>
+            <name>should navigate to "Form Authentication" page</name>
+            <title>should navigate to "Form Authentication" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853264330' status='passed' stop='1723853264759'>
+            <name>should find form on "Form Authentication" page</name>
+            <title>should find form on "Form Authentication" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853264759' status='passed' stop='1723853265190'>
+            <name>should find "Horizontal Slider" link</name>
+            <title>should find "Horizontal Slider" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853265190' status='passed' stop='1723853265880'>
+            <name>should navigate to "Horizontal Slider" page</name>
+            <title>should navigate to "Horizontal Slider" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853265881' status='broken' stop='1723853266237'>
+            <name>should find slider on "Horizontal Slider" page</name>
+            <title>should find slider on "Horizontal Slider" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such element: Unable to locate element: {"method":"css selector","selector":".range"}
+                  (Session info: chrome=114.0.5735.133)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":".range"}
+                  (Session info: chrome=114.0.5735.133)
+                    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+                    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:514:13)
+                    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:742:17)
+                    at async Context.&lt;anonymous> (file:///home/themalaland/Documents/selenium-test-project4/tests/test.mjs:94:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1723853266237' status='passed' stop='1723853266498'>
+            <name>should find "JavaScript Alerts" link</name>
+            <title>should find "JavaScript Alerts" link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853266498' status='passed' stop='1723853267393'>
+            <name>should navigate to "JavaScript Alerts" page</name>
+            <title>should navigate to "JavaScript Alerts" page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723853267393' status='passed' stop='1723853267683'>
+            <name>should find "Click for JS Alert" button</name>
+            <title>should find "Click for JS Alert" button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

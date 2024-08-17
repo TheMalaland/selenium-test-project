@@ -12,13 +12,16 @@
   "description": "",
   "dependencies": {
     "chai": "^5.1.1",
+    "express": "^4.19.2",
     "mocha": "^10.7.3",
     "mocha-parallel-tests": "^2.3.0",
     "mochawesome": "^7.1.3",
     "mochawesome-report-generator": "^6.2.0",
     "parallel-test": "^3.0.4",
     "prom-client": "^15.1.3",
-    "selenium-webdriver": "^4.23.0"
+    "selenium-webdriver": "^4.23.0",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   },
   "devDependencies": {
     "mocha": "^10.2.0",
